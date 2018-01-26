@@ -31,10 +31,11 @@ INSERTION-SORT(A)
 void insertion_sort(int A[], int n)
 {
         int i,j;
+        int key;
         for(j=1; j<n; j++)
         {
                 key = A[j];
-                for(i=j-1; i>0; i--)
+                for(i=j-1; i>=0; i--)
                 {
                         if(A[i] < key)
                                 A[i+1] = A[i];
@@ -52,6 +53,7 @@ FIND(A, key)
 ..for j = 1 to A.length  
 ....if A[j] == key  
 ......return j  
+
 ..return NIL  
 
 
