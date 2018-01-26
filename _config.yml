@@ -26,6 +26,8 @@ github_username:  kelvin34501
 # Build settings
 markdown: kramdown
 theme: minima
+# theme: jekyll-theme-primer
+# theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
