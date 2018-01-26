@@ -53,7 +53,6 @@ FIND(A, key)
 ..for j = 1 to A.length  
 ....if A[j] == key  
 ......return j  
-
 ..return NIL  
 
 
